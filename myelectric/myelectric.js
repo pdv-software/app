@@ -2,10 +2,10 @@
 var app_myelectric = {
 
     config: {
-        "use":{"type":"feed", "autoname":"use", "engine":"5", "description":"House or building use in watts"},
-        "use_kwh":{"type":"feed", "autoname":"use_kwh", "engine":5, "description":"Cumulative use in kWh"},
-        "unitcost":{"type":"value", "default":0.1508, "name": "Unit cost", "description":"Unit cost of electricity £/kWh"},
-        "currency":{"type":"value", "default":"£", "name": "Currency", "description":"Currency symbol (£,$..)"}
+        "use":{"type":"feed", "autoname":_Tr("use"), "engine":0, "description":_Tr("House or building use in watts"), "unit":"W"},
+        "use_kwh":{"type":"feed", "autoname":_Tr("use_kwh"), "engine":5, "description":_Tr("Cumulative use in kWh"), "unit":"kWh"},
+        "unitcost":{"type":"value", "default":0.15, "name": _Tr("Unit cost"), "description":_Tr("Unit cost of electricity £/kWh")},
+        "currency":{"type":"value", "default":_Tr("£"), "name": _Tr("Currency"), "description":_Tr("Currency symbol (€,£,$...)")}
     },
     
     daily_data: [],
@@ -180,15 +180,15 @@ var app_myelectric = {
         if (app_myelectric.viewmode=="energy") {
             scale = 1;
             $("#myelectric_usetoday_units_a").html("");
-            $("#myelectric_usetoday_units_b").html(" kWh");
-            $(".u1a").html(""); $(".u1b").html("kWh");
-            $(".u2a").html(""); $(".u2b").html(" kWh/d");
+            $("#myelectric_usetoday_units_b").html(" "+_Tr("kWh"));
+            $(".u1a").html(""); $(".u1b").html(_Tr("kWh"));
+            $(".u2a").html(""); $(".u2b").html(" "+_Tr("kWh/d"));
         } else {
             scale = app_myelectric.config.unitcost.value;
             $("#myelectric_usetoday_units_a").html(app_myelectric.config.currency.value);
             $("#myelectric_usetoday_units_b").html("");
             $(".u1a").html(app_myelectric.config.currency.value); $(".u1b").html("");
-            $(".u2a").html(app_myelectric.config.currency.value); $(".u2b").html("/day");
+            $(".u2a").html(app_myelectric.config.currency.value); $(".u2b").html(_Tr("/day"));
         }
         
         var now = new Date();
@@ -234,7 +234,7 @@ var app_myelectric = {
             $("#myelectric_powernow").html((feeds[use].value*1).toFixed(0)+"W");
         } else {
             // 1000W for an hour (x3600) = 3600000 Joules / 3600,000 = 1.0 kWh x 0.15p = 0.15p/kWh (scaling factor is x3600 / 3600,000 = 0.001)
-            $("#myelectric_powernow").html(app_myelectric.config.currency.value+(feeds[use].value*1*app_myelectric.config.unitcost.value*0.001).toFixed(3)+"/hr");
+            $("#myelectric_powernow").html(app_myelectric.config.currency.value+(feeds[use].value*1*app_myelectric.config.unitcost.value*0.001).toFixed(3)+_Tr("/hr"));
         }
         // Advance view
         if (app_myelectric.autoupdate) {
@@ -267,8 +267,8 @@ var app_myelectric = {
             },
             
             yaxis: {
-                title: "Power (Watts)",
-                units: "W",
+                title: _Tr("Power (Watts)"),
+                units: _Tr("W"),
                 minor_tick: 250,
                 major_tick: 1000
             }
@@ -425,4 +425,3 @@ var app_myelectric = {
         $(".ajax-loader").hide();
     }
 };
-
