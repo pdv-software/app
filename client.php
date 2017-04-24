@@ -6,12 +6,16 @@
     } elseif (isset($_GET['apikey'])) {
         $apikey = $_GET['apikey'];
     }
-    
+		$appname="mysolarpv";
+		if (isset($_GET['appname'])) {
+        $appname = $_GET['appname'];
+    }    
     if (isset($session['write']) && $session['write']) $apikey = $user->get_apikey_write($session['userid']);
 ?>
 
 <script>
     var path = "<?php print $path; ?>";
+    var appname = "<?php print $appname; ?>";
     var apikey = "<?php print $apikey; ?>";
     var sessionwrite = <?php echo $session['write']; ?>;
     
@@ -20,6 +24,7 @@
 </script>
 
 <link href="<?php echo $path; ?>Modules/app/style.css" rel="stylesheet">
+<script type="text/javascript"><?php require "Modules/app/app_langjs.php"; ?></script>
 <script type="text/javascript" src="<?php echo $path; ?>Modules/app/app2.js"></script>
 <script type="text/javascript" src="<?php echo $path; ?>Modules/app/lib/config.js"></script>
 <script type="text/javascript" src="<?php echo $path; ?>Modules/app/lib/feed.js"></script>        

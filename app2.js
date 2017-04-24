@@ -26,7 +26,7 @@ var app = {
         
     
         var html = "";
-        $.ajax({url: app.basepath+appname+"/"+appname+".html", async: false, cache: false, success: function(data) {html = data;} });
+        $.ajax({url: app.basepath+appname+"/"+appname+".php", async: false, cache: false, success: function(data) {html = data;} });
         
         $("#content").append('<div class="apps" id="app_'+appname+'" style="display:none"></div>');
         $("#app_"+appname).html(html);

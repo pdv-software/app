@@ -1,0 +1,870 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: emoncms3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-04-24 12:24+0200\n"
+"PO-Revision-Date: 2017-04-24 12:25+0200\n"
+"Last-Translator: Frank Dille\n"
+"Language-Team: @sumpfing <anne@sumpfing.de>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../app_langjs.php:30 ../../../app_langjs.php:63
+msgid "/day"
+msgstr "/Tag"
+
+#: ../../../app_langjs.php:31 ../../../app_langjs.php:64
+msgid "/hr"
+msgstr "/h"
+
+#: ../../../app_langjs.php:32 ../../../app_langjs.php:53
+#: ../../../app_langjs.php:65
+msgid "Cumulative use in kWh"
+msgstr "Verbrauch in kWh"
+
+#: ../../../app_langjs.php:33 ../../../app_langjs.php:54
+#: ../../../app_langjs.php:66
+msgid "Currency"
+msgstr "Währung"
+
+#: ../../../app_langjs.php:34 ../../../app_langjs.php:55
+#: ../../../app_langjs.php:67
+msgid "Currency symbol (€,£,$...)"
+msgstr "Währungszeichen (€,£,$...)"
+
+#: ../../../app_langjs.php:35 ../../../app_langjs.php:56
+#: ../../../app_langjs.php:68
+msgid "House or building use in watts"
+msgstr "Gebäude / Anlage in W"
+
+#: ../../../app_langjs.php:36 ../../../app_langjs.php:69
+#: ../../../energymeter/energymeter.php:9
+#: ../../../energymeter/energymeter.php:26
+#: ../../../energymeter/energymeter.php:61
+#: ../../../energymeter/energymeter.php:68
+#: ../../../energymeter/energymeter.php:75
+#: ../../../energymeter/energymeter.php:82 ../../../myelectric/myelectric.php:9
+#: ../../../myelectric/myelectric.php:26 ../../../myelectric/myelectric.php:60
+#: ../../../myelectric/myelectric.php:67 ../../../myelectric/myelectric.php:74
+#: ../../../myelectric/myelectric.php:81
+msgid "kWh"
+msgstr "kWh"
+
+#: ../../../app_langjs.php:37 ../../../app_langjs.php:70
+#: ../../../energymeter/energymeter.php:63
+#: ../../../energymeter/energymeter.php:70
+#: ../../../energymeter/energymeter.php:77
+#: ../../../energymeter/energymeter.php:84
+#: ../../../myelectric/myelectric.php:62 ../../../myelectric/myelectric.php:69
+#: ../../../myelectric/myelectric.php:76 ../../../myelectric/myelectric.php:83
+msgid "kWh/d"
+msgstr "kWh/Tag"
+
+#: ../../../app_langjs.php:38 ../../../app_langjs.php:71
+msgid "Power (Watts)"
+msgstr "Leistung [W]"
+
+#: ../../../app_langjs.php:39 ../../../app_langjs.php:57
+#: ../../../app_langjs.php:72
+msgid "Unit cost"
+msgstr "Preis"
+
+#: ../../../app_langjs.php:40
+msgid "Unit cost of electricity"
+msgstr "Kosten je kWh"
+
+#: ../../../app_langjs.php:41 ../../../app_langjs.php:59
+#: ../../../app_langjs.php:74
+msgid "use"
+msgstr "Leistung"
+
+#: ../../../app_langjs.php:42 ../../../app_langjs.php:60
+#: ../../../app_langjs.php:75
+msgid "use_kwh"
+msgstr "Verbrauch"
+
+#: ../../../app_langjs.php:43 ../../../app_langjs.php:76
+#: ../../../energymeter/energymeter.php:37
+#: ../../../myelectric/myelectric.php:37
+msgid "W"
+msgstr "W"
+
+#: ../../../app_langjs.php:44 ../../../app_langjs.php:77
+#: ../../../energymeter/energymeter.php:61
+#: ../../../energymeter/energymeter.php:68
+#: ../../../energymeter/energymeter.php:75
+#: ../../../energymeter/energymeter.php:82
+#: ../../../myelectric/myelectric.php:60 ../../../myelectric/myelectric.php:67
+#: ../../../myelectric/myelectric.php:74 ../../../myelectric/myelectric.php:81
+msgid "£"
+msgstr "€"
+
+#: ../../../app_langjs.php:47
+msgid "feed"
+msgstr "Feed"
+
+#: ../../../app_langjs.php:48
+msgid "Launch App"
+msgstr "App Starten"
+
+#: ../../../app_langjs.php:49
+msgid "ok"
+msgstr "OK"
+
+#: ../../../app_langjs.php:50
+msgid "Select"
+msgstr "Auswahl"
+
+#: ../../../app_langjs.php:58 ../../../app_langjs.php:73
+msgid "Unit cost of electricity £/kWh"
+msgstr "Kosten je kWh"
+
+#: ../../../app_menu.php:19
+msgid "Energy Meter"
+msgstr "Zähler"
+
+#: ../../../app_menu.php:20 ../../../energymeter/energymeter.php:93
+#: ../../../myelectric/myelectric.php:92
+msgid "My Electric"
+msgstr "Verbrauch"
+
+#: ../../../app_menu.php:21
+msgid "My Solar"
+msgstr "Einspeisung"
+
+#: ../../../app_menu.php:22
+msgid "My Solar&amp;Wind"
+msgstr "Solar &amp; Wind"
+
+#: ../../../app_menu.php:23
+msgid "My Solar (with divert)"
+msgstr "Solar (Überschuß)"
+
+#: ../../../energymeter/energymeter.php:8 ../../../myelectric/myelectric.php:8
+msgid "Cost"
+msgstr "Kosten"
+
+#: ../../../energymeter/energymeter.php:20
+#: ../../../myelectric/myelectric.php:20
+msgid "POWER NOW"
+msgstr "LEISTUNG"
+
+#: ../../../energymeter/energymeter.php:21
+#: ../../../myelectric/myelectric.php:21
+msgid "-"
+msgstr "-"
+
+#: ../../../energymeter/energymeter.php:25
+#: ../../../myelectric/myelectric.php:25
+msgid "USE TODAY"
+msgstr "HEUTE"
+
+#: ../../../energymeter/energymeter.php:34
+#: ../../../myelectric/myelectric.php:34
+msgid "1h"
+msgstr "1 Std."
+
+#: ../../../energymeter/energymeter.php:35
+#: ../../../myelectric/myelectric.php:35
+msgid "8h"
+msgstr "8 Std."
+
+#: ../../../energymeter/energymeter.php:36
+#: ../../../myelectric/myelectric.php:36
+msgid "D"
+msgstr "T"
+
+#: ../../../energymeter/energymeter.php:38
+#: ../../../myelectric/myelectric.php:38
+msgid "M"
+msgstr "M"
+
+#: ../../../energymeter/energymeter.php:39
+msgid "Q"
+msgstr "Q"
+
+#: ../../../energymeter/energymeter.php:40
+msgid "Y"
+msgstr "J"
+
+#: ../../../energymeter/energymeter.php:60
+#: ../../../myelectric/myelectric.php:59
+msgid "WEEK"
+msgstr "WOCHE"
+
+#: ../../../energymeter/energymeter.php:67
+#: ../../../myelectric/myelectric.php:66
+msgid "MONTH"
+msgstr "MONAT"
+
+#: ../../../energymeter/energymeter.php:74
+#: ../../../myelectric/myelectric.php:73
+msgid "YEAR"
+msgstr "JAHR"
+
+#: ../../../energymeter/energymeter.php:81
+#: ../../../myelectric/myelectric.php:80
+msgid "ALL"
+msgstr "ALLE"
+
+#: ../../../energymeter/energymeter.php:97
+#: ../../../myelectric/myelectric.php:96
+msgid ""
+"The My Electric app is a simple home energy monitoring app for exploring "
+"home or building electricity consumption over time. It includes a real-time "
+"view and a historic kWh per day bar graph."
+msgstr ""
+"Die App dient der Energieüberwachung von Gebäuden. Es ist eine Echtzeit "
+"Anzeige und eine kWh/Tag Grafik enthalten."
+
+#: ../../../energymeter/energymeter.php:99
+#: ../../../myelectric/myelectric.php:98
+msgid ""
+"<b>Auto configure:</b> This app can auto-configure connecting to emoncms "
+"feeds with the names shown on the right, alternatively feeds can be selected "
+"by clicking on the edit button."
+msgstr ""
+"<b>Autom. Konfiguration:</b> Die App wählt automatisch emoncms Feeds aus. Es "
+"kann aber auch eine Feed ausgewählt werden."
+
+#: ../../../energymeter/energymeter.php:101
+#: ../../../myelectric/myelectric.php:100
+msgid ""
+"<b>Cumulative kWh</b> feeds can be generated from power feeds with the "
+"power_to_kwh input processor."
+msgstr ""
+"<b>Kumulierte kWh</b> Feeds können mit HIlfe des Input Processor "
+"Power_to_kwh erstellt werden."
+
+#~ msgid "3h"
+#~ msgstr "3h"
+
+#~ msgid "5h"
+#~ msgstr "5h"
+
+#~ msgid "HOUSE"
+#~ msgstr "HAUS"
+
+#~ msgid "DIVERT"
+#~ msgstr "EINSPEISUNG"
+
+#~ msgid "TOTAL USE"
+#~ msgstr "GESAMT"
+
+#~ msgid "SOLAR"
+#~ msgstr "SOLAR"
+
+#~ msgid "VIEW ALL"
+#~ msgstr "ALLES ANZEIGEN"
+
+#~ msgid "VIEW HISTORY"
+#~ msgstr "VERLAUF ANZEIGEN"
+
+#~ msgid "SHOW BALANCE"
+#~ msgstr "SALDO"
+
+#~ msgid "Device API"
+#~ msgstr "Geräte API"
+
+#~ msgid "Apikey authentication"
+#~ msgstr "Apikey Authentisierung"
+
+#~ msgid ""
+#~ "If you want to call any of the following actions when your not logged in "
+#~ "you have this options to authenticate with the API key:"
+#~ msgstr ""
+#~ "Wenn Sie die folgenden Aktionen ohne vorherige Anmeldung ausführen, muss "
+#~ "der API Key hinzugefügt werden:"
+
+#~ msgid "Append on the URL of your request: &apikey=APIKEY"
+#~ msgstr "Der URL hinzufügen: &apikey=APIKEY"
+
+#~ msgid "Use POST parameter: \"apikey=APIKEY\""
+#~ msgstr "POST Parameter: \"apikey=APIKEY\""
+
+#~ msgid "Add the HTTP header: \"Authorization: Bearer APIKEY\""
+#~ msgstr "HTTP Header: \"Authorization: Bearer APIKEY\""
+
+#~ msgid "Read only:"
+#~ msgstr "Lesen:"
+
+#~ msgid "Read & Write:"
+#~ msgstr "Lesen und Schreiben"
+
+#~ msgid "Devicekey authentication"
+#~ msgstr "Device-Key Authorisierung"
+
+#~ msgid ""
+#~ "Using a device key will only allow sending data for the Node of that "
+#~ "device, giving a greater level of security."
+#~ msgstr ""
+#~ "Das Benutzen eines Device-Key erlaubt das Senden von Daten nur für dieses "
+#~ "eine Gerät und verschafft eine höhere Sicherheit beim Zugriff."
+
+#~ msgid ""
+#~ "The input module can use a devicekey instead of an apikey. If you want to "
+#~ "authenticate as a device, just replace apikey=APIKEY with "
+#~ "devicekey=DEVICEKEY:"
+#~ msgstr ""
+#~ "Das Input Modul kann spezielle Device-Key statt eines allgemeinen Api-Key "
+#~ "verwenden. Um einzelne Geräte zu authentizieren muss apikey=APIKEY mit "
+#~ "devicekey=DEVICEKEY ersetzt werden. "
+
+#~ msgid "Append on the input URL of your request: &devicekey=DEVICEKEY"
+#~ msgstr "Beim Request der Input URL hinzufügen: &devicekey=DEVICEKEY "
+
+#~ msgid "Use POST parameter while calling input: \"devicekey=DEVICEKEY\""
+#~ msgstr "POST Parameter beim Aufruf eines Input: \"devicekey=DEVICEKEY\""
+
+#~ msgid ""
+#~ "Ensure that the sent input Node matches the Node that is configured for "
+#~ "the device on the device menu."
+#~ msgstr ""
+#~ "Stellen Sie beim Versenden von Input-Daten sicher, dass ein Node "
+#~ "angegeben ist. Der Node wird in der Geräteliste konfiguriert."
+
+#~ msgid "Available HTML URLs"
+#~ msgstr "Verfügbare HTML URLs"
+
+#~ msgid "The device list view"
+#~ msgstr "Geräteansicht"
+
+#~ msgid "This page"
+#~ msgstr "Geräte API (aktuelle Seite)"
+
+#~ msgid "Available JSON commands"
+#~ msgstr "JSON Befehle"
+
+#~ msgid "To use the json api the request url needs to include <b>.json</b>"
+#~ msgstr ""
+#~ "Bei der Benutzung der json API muss der URL <b>.json</b> hinzugefügt "
+#~ "werden."
+
+#~ msgid "Device actions"
+#~ msgstr "Gerät Aktionen"
+
+#~ msgid "List devices"
+#~ msgstr "Geräte Anzeigen"
+
+#~ msgid "Get device details"
+#~ msgstr "Gerät Details "
+
+#~ msgid "Add a device"
+#~ msgstr "Gerät Hinzufügen"
+
+#~ msgid "Delete device"
+#~ msgstr "Gerät Löschen"
+
+#~ msgid "Update device"
+#~ msgstr "Gerät Aktualisieren"
+
+#~ msgid "List templates"
+#~ msgstr "Vorlagenliste"
+
+#~ msgid "Initialize device"
+#~ msgstr "Geräte Initialisierung"
+
+#~ msgid "Devices templates documentation"
+#~ msgstr "Dokumentation Geräte-Vorlagen"
+
+#~ msgid ""
+#~ "Template files are located at <b>'\\Modules\\device\\data\\*.json'</b>"
+#~ msgstr ""
+#~ "Vorlagen Dateien werden abgelegt unter <b>'\\Modules\\device\\data\\*."
+#~ "json'</b>"
+
+#~ msgid ""
+#~ "Each file defines a device type and provides the default inputs and feeds "
+#~ "configurations for that device."
+#~ msgstr ""
+#~ "Jede Vorlage definiert einen Gerätetyp und stellt die Default-"
+#~ "Konfiguration für Inputs und Feeds für ein Gerät."
+
+#~ msgid ""
+#~ "A device should only need to be initialized once on instalation. "
+#~ "Initiating a device twice will duplicate its default inputs and feeds."
+#~ msgstr ""
+#~ "Ein Gerätetyp bei der Installation muss nur einmal initialisiert werden. "
+#~ "Jede weitere Initalisierung erstellt weitere Inputs und Feeds als Kopie."
+
+#~ msgid "Devices Help"
+#~ msgstr "Geräte Hilfe"
+
+#~ msgid "Devices"
+#~ msgstr "Geräte"
+
+#~ msgid "loading..."
+#~ msgstr "wird geladen ..."
+
+#~ msgid "No devices"
+#~ msgstr "Keine Geräte"
+
+#~ msgid "There are no devices configured. Please add a new device."
+#~ msgstr ""
+#~ "Es sind keine Geräte konfiguriert, Bitte erstellen Sie ein neues Gerät."
+
+#~ msgid "New device"
+#~ msgstr "Neues Gerät"
+
+#~ msgid "Deleting a device is permanent."
+#~ msgstr "Das Löschen eines Gerätes ist endgültig!"
+
+#~ msgid ""
+#~ "If this device is active and is using a device key, it will no longer be "
+#~ "able to post data."
+#~ msgstr ""
+#~ "Warnung: Sollte das Gerät aktiv sein und per <b>Device-Key</b> Daten "
+#~ "senden, wird dies nicht mehr funktionieren."
+
+#~ msgid ""
+#~ "Inputs and Feeds that this device uses are not deleted and all historic "
+#~ "data is kept. To remove them, deleted manualy afterwards."
+#~ msgstr ""
+#~ "Inputs und Feeds die dieses Gerät bereitstellt werden nicht gelöscht. Die "
+#~ "aufgezeichneten Daten bleiben erhalten.<br>Zum Löschen der Daten müssen "
+#~ "die Feeds anschließend manuell gelöscht werden."
+
+#~ msgid "Are you sure you want to delete?"
+#~ msgstr "Wirklich löschen?"
+
+#~ msgid "Cancel"
+#~ msgstr "Abbruch"
+
+#~ msgid "Delete permanently"
+#~ msgstr "Dauerhaft löschen"
+
+#~ msgid "Default inputs and associated feeds will be automaticaly created."
+#~ msgstr "Es werden jetzt die Default Inputs und Feeds automatisch erstellt."
+
+#~ msgid ""
+#~ "Make sure the selected device node and type are correcly configured "
+#~ "before proceding."
+#~ msgstr ""
+#~ "Stellen Sie sicher das Gerätetyp und -Node richtig konfiguriert sind, "
+#~ "bevor Sie die fortfahren."
+
+#~ msgid ""
+#~ "Initializing a device usualy should only be done once on installation."
+#~ msgstr ""
+#~ "Die Initalisierung eines Gerätes sollte nur einmalig bei der Installation "
+#~ "erfolgen."
+
+#~ msgid ""
+#~ "If the node name already exists, new default inputs and feeds will be "
+#~ "added."
+#~ msgstr ""
+#~ "Wenn der Node bereits existiert werden die Inputs und Feed hinzugefügt."
+
+#~ msgid "Initialize"
+#~ msgstr "Initialisieren"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Location"
+#~ msgstr "Standort"
+
+#~ msgid "Node"
+#~ msgstr "Node"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Device access key"
+#~ msgstr "Device-Key"
+
+#~ msgid "Updated"
+#~ msgstr "Geändert"
+
+#~ msgid "Edit"
+#~ msgstr "Bearbeiten"
+
+#~ msgid "Delete"
+#~ msgstr "Löschen"
+
+#~ msgid "Device Setup"
+#~ msgstr "Geräte"
+
+#~ msgid "Dashboard Configuration"
+#~ msgstr "Dashboardkonfiguration"
+
+#~ msgid "Dashboard name: "
+#~ msgstr "Dashboard Name:"
+
+#~ msgid "Alias name: "
+#~ msgstr "Alias Name:"
+
+#~ msgid "Background color: "
+#~ msgstr "Hntergrund Farbe:"
+
+#~ msgid "Description: "
+#~ msgstr "Beschreibung:"
+
+#~ msgid "Grid size: "
+#~ msgstr "Gitter Größe:"
+
+#~ msgid "Make this dashboard the first shown"
+#~ msgstr "Zeige dieses Dashboard als erstes"
+
+#~ msgid "Main"
+#~ msgstr "Haupt"
+
+#~ msgid "Activate this dashboard"
+#~ msgstr "Aktiviere dieses Dashboard"
+
+#~ msgid "Published"
+#~ msgstr "Veröffentlicht"
+
+#~ msgid "Anyone with the URL can see this dashboard"
+#~ msgstr "Jeder mit der URL kann dieses Dashboard sehen"
+
+#~ msgid "Public"
+#~ msgstr "Öffentlich"
+
+#~ msgid ""
+#~ "Shows dashboard description on mouse over dashboard name in menu project"
+#~ msgstr ""
+#~ "Zeigt Dashboardbeschreibung bei Überfahren des Dashboardnamens mit der "
+#~ "Maus"
+
+#~ msgid "Show description"
+#~ msgstr "Beschreibung zeigen"
+
+#~ msgid "Close"
+#~ msgstr "Schliessen"
+
+#~ msgid "Save changes"
+#~ msgstr "Änderungen speichern"
+
+#~ msgid "Configure element"
+#~ msgstr "Element konfigurieren"
+
+#~ msgid "Configure"
+#~ msgstr "Konfigurieren"
+
+#~ msgid "Forward"
+#~ msgstr "in Vordergrund"
+
+#~ msgid "Backward"
+#~ msgstr "in Hintergrund"
+
+#~ msgid "Not modified"
+#~ msgstr "Nicht modifiziert"
+
+#~ msgid "Saved"
+#~ msgstr "Gespeichert"
+
+#~ msgid "Dashboards"
+#~ msgstr "Dashboards"
+
+#~ msgid "No dashboards created"
+#~ msgstr "Kein Dashboard angelegt"
+
+#~ msgid ""
+#~ "Maybe you would like to add your first dashboard using the button bellow."
+#~ msgstr "Um ein erstes Dashboard anzulegen, benutzen diese Schaltfläche."
+
+#~ msgid "New"
+#~ msgstr "Neu"
+
+#~ msgid "Delete dashboard"
+#~ msgstr "Dashboard Löschen"
+
+#~ msgid "Id"
+#~ msgstr "Id"
+
+#~ msgid "Alias"
+#~ msgstr "Alias"
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Draw Editor"
+#~ msgstr "Editor"
+
+#~ msgid "Configure dashboard"
+#~ msgstr "Kinfiguration Dashboard"
+
+#~ msgid "View mode"
+#~ msgstr "Anzeigemethode"
+
+#~ msgid "Changed, press to save"
+#~ msgstr "geändert, zum Speichern drücken"
+
+#~ msgid "Colour"
+#~ msgstr "Farbe"
+
+#~ msgid "Feed"
+#~ msgstr "Feed"
+
+#~ msgid "Feed value"
+#~ msgstr "Feedwert"
+
+#~ msgid "Graduations"
+#~ msgstr "Abstufungen"
+
+#~ msgid "Max value"
+#~ msgstr "Maximalwert"
+
+#~ msgid "Max value to show"
+#~ msgstr "Maximalwert zum Anzeigen"
+
+#~ msgid "Scale"
+#~ msgstr "Skalierung"
+
+#~ msgid ""
+#~ "Feed to set, control with caution, make sure device being controlled can "
+#~ "operate safely in event of emoncms failure."
+#~ msgstr ""
+#~ "Feed to set, control with caution, make sure device being controlled can "
+#~ "operate safely in event of emoncms failure."
+
+#~ msgid "Starting value"
+#~ msgstr "Startwert"
+
+#~ msgid "Value"
+#~ msgstr "Wert"
+
+#~ msgid "IP"
+#~ msgstr "IP"
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Confirmation"
+#~ msgstr "Bestätigung"
+
+#~ msgid "IP address of server"
+#~ msgstr "Server IP Adresse"
+
+#~ msgid "Listen port of server"
+#~ msgstr "Server Port"
+
+#~ msgid "URL example: node/param"
+#~ msgstr "URL Beispiel: Node/Parameter"
+
+#~ msgid "Data to send"
+#~ msgstr "Daten zum Senden"
+
+#~ msgid "0=rd, 1=gn, 2=gy, 3=bu, 4=vio, 5=ye, >5=bk"
+#~ msgstr "0=Rot, 1=Grün, 2=Grau, 4=Vio., 5=Gelb, >5 Schwarz"
+
+#~ msgid "Button Text"
+#~ msgstr "Schaltfläche Text"
+
+#~ msgid "Confirmation Box: yes/no"
+#~ msgstr "Bestätigung: Ja / Nein"
+
+#~ msgid "Do you want to continue?"
+#~ msgstr "Wirklich Fortsetzen?"
+
+#~ msgid "Bottom feed value"
+#~ msgstr "Niedrigster Wert"
+
+#~ msgid "Top feed value"
+#~ msgstr "Höchstwert"
+
+#~ msgid "Type to show"
+#~ msgstr "Anzeigetyp"
+
+#~ msgid "Units to show"
+#~ msgstr "Anzeigeeinheit"
+
+#~ msgid "Value is multiplied by scale before display"
+#~ msgstr "Wert wird mit Skalierung multipliziert bevor er angezeigt wird."
+
+#~ msgid "Decimals to show"
+#~ msgstr "Kommast."
+
+#~ msgid "0 = before value, 1 = after value"
+#~ msgstr "0=vor Wert, 1=nach Wert"
+
+#~ msgid "Bottom"
+#~ msgstr "Niedrigster"
+
+#~ msgid "Consumption"
+#~ msgstr "Verbrauch"
+
+#~ msgid "Consumption feed value"
+#~ msgstr "Verbrauchsfeed Wert"
+
+#~ msgid "Currency to show"
+#~ msgstr "Strom zum Anzeigen"
+
+#~ msgid "delta"
+#~ msgstr "Delta"
+
+#~ msgid "dp"
+#~ msgstr "Kommast."
+
+#~ msgid "Feed source"
+#~ msgstr "Feed Quelle"
+
+#~ msgid "Fill"
+#~ msgstr "Füllen"
+
+#~ msgid "Fill value"
+#~ msgstr "Füllwert"
+
+#~ msgid "interval"
+#~ msgstr "Intervall"
+
+#~ msgid "kwhd"
+#~ msgstr "kWh/d"
+
+#~ msgid "kwhd source"
+#~ msgstr "kW/h Quelle"
+
+#~ msgid "Kwh price"
+#~ msgstr "kWh Preis"
+
+#~ msgid "Line colour in hex. Blank is use default."
+#~ msgstr "Linienfarbe in Hex. Schwarz ist Voreinstellung."
+
+#~ msgid "Mid"
+#~ msgstr "Mittel"
+
+#~ msgid "Mid value"
+#~ msgstr "Mittelwert"
+
+#~ msgid "Power"
+#~ msgstr "Leistung"
+
+#~ msgid "scale"
+#~ msgstr "Skalierung"
+
+#~ msgid "Scale by"
+#~ msgstr "Skalierung"
+
+#~ msgid "Set kwh price"
+#~ msgstr "kWh Preis eingeben"
+
+#~ msgid "Solar feed value"
+#~ msgstr "Solarfeed Wert"
+
+#~ msgid "Threshold A"
+#~ msgstr "Schwelle A"
+
+#~ msgid "Threshold A used"
+#~ msgstr "Schwelle A benutzt"
+
+#~ msgid "Threshold B"
+#~ msgstr "Schwelle B"
+
+#~ msgid "Threshold B used"
+#~ msgstr "Schwelle B benutzt"
+
+#~ msgid "Top"
+#~ msgstr "Höchster"
+
+#~ msgid "Ufac"
+#~ msgstr "Ufac"
+
+#~ msgid "Ufac value"
+#~ msgstr "Ufac Wert"
+
+#~ msgid "units"
+#~ msgstr "Einheit"
+
+#~ msgid " clone"
+#~ msgstr "Kopie erstellen"
+
+#~ msgid "Value to show"
+#~ msgstr "Anzeigewert"
+
+#~ msgid "Menu name: (lowercase a-z only)"
+#~ msgstr "Menüname: (nur Kleinbuchstaben a-z)"
+
+#~ msgid "Logout"
+#~ msgstr "Logout"
+
+#~ msgid "dashboard set"
+#~ msgstr "Dashboard einrichten"
+
+#~ msgid "dashboard set configuration"
+#~ msgstr "Dashboardkonfiguration"
+
+#~ msgid "Main: "
+#~ msgstr "Haupt:"
+
+#~ msgid "Published: "
+#~ msgstr "Veröffentlicht:"
+
+#~ msgid "Public: "
+#~ msgstr "Öffentlich:"
+
+#~ msgid "Thumb view"
+#~ msgstr "Thumb anzeigen"
+
+#~ msgid "Actions"
+#~ msgstr "Aktionen"
+
+#~ msgid "Share"
+#~ msgstr "Geteilt"
+
+#~ msgid "This is the main dashboard"
+#~ msgstr "Dies ist das Hauptdashboard"
+
+#~ msgid "Set main dashboard"
+#~ msgstr "Hauptdashboard festlegen"
+
+#~ msgid "Unpublish dashboard"
+#~ msgstr "Dashboard depublizieren"
+
+#~ msgid "Publish dashboard"
+#~ msgstr "Dashboard publizieren"
+
+#~ msgid "Make dashboard private"
+#~ msgstr "Dashboard als privat festlegen"
+
+#~ msgid "Make dashboard public"
+#~ msgstr "Dahsboard als öffentlich festlegen"
+
+#~ msgid "Draw"
+#~ msgstr "Ändern"
+
+#~ msgid "View"
+#~ msgstr "Anzeigen"
+
+#~ msgid "Clone"
+#~ msgstr "Klonen"
+
+#~ msgid "Public share URL"
+#~ msgstr "Öffentliche URLzum Teilen"
+
+#~ msgid "Private share URL"
+#~ msgstr "Private URL zum Teilen"
+
+#~ msgid "Explore Public Dashboards"
+#~ msgstr "Öffentliche Dashboards suchen"
+
+#~ msgid "User"
+#~ msgstr "Benutzer"
+
+#~ msgid "en_EN"
+#~ msgstr "English"
+
+#~ msgid "es_ES"
+#~ msgstr "Spanish"
+
+#~ msgid "nl_BE"
+#~ msgstr "Dutch (Belgium)"
+
+#~ msgid "nl_NL"
+#~ msgstr "Dutch (Netherlands)"
+
+#~ msgid "fr_FR"
+#~ msgstr "French"
+
+#~ msgid "AUTODETECTLANGUAGE"
+#~ msgstr "Use language browser"
